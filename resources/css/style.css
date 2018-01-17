@@ -1,0 +1,196 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: white;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: 29.82rem;
+  background-color: black;
+  background-size: cover;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+}
+
+/* Body Content */
+
+.black-con1 {
+  display: flex;
+  justify-content: flex-start;;
+  align-content: center;
+  flex-direction: row;
+  width: auto;
+  height: 2.32rem;
+  background-color: black;
+  padding-left: 8.0rem;
+}
+
+.black-con1 img {
+  margin: 0.5rem 1rem;
+  width: 2rem;
+}
+
+.black-con1 h4 {
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+}
+
+.black-con2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 20rem;
+  height: 8.25rem;
+  background-color: black;
+  margin-left: 7rem;
+  text-align: left;
+}
+
+.black-con2 h2 {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: .22rem;
+  margin-left: 1rem;
+}
+
+.black-con2 h4 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.bike-div {
+  display: flex;
+  margin:auto;
+}
+
+.red-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0.75rem 7rem;
+  width: auto;
+  height: 2.5rem;
+  background-color: firebrick;
+}
+
+.red-con span {
+  font-size: 1.2rem;
+}
+
+.body-con1 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 3rem 6.15rem;
+  width: 62.53rem;
+  height: 20rem;
+}
+
+.img-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 30%;
+  height: 18rem;
+  border: 4px solid black;
+}
+
+.img-con img {
+  height: 12.5rem;
+  width: 70%;
+  margin: 1rem;
+}
+
+#glasses {
+  width: 80%;
+  height: 8rem;
+}
+
+.img-tag {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 30%;
+  height: 1rem;
+  border: 4px solid black;
+  background-color: black;
+}
+
+.body-con2 {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 6.9rem;
+  margin-right: 6rem;
+  margin-bottom: 4rem;
+  width: 60.98rem;
+  height: 4.8rem;
+}
+
+.details-tag {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  padding-left: 1.2rem;
+  width: 35%;
+  height: 3rem;
+  border: 4px solid black;
+  background-color: black;
+}
+
+.details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: row;
+  width: 37.5%;
+  height: 1.3rem;
+  background-color: white;
+}
+
+#details {
+  color: black;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 10rem;
+  background-color: black;
+}
+
+footer p {
+  margin-left: 7rem;
+}
